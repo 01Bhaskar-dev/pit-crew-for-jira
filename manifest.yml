@@ -1,0 +1,28 @@
+modules:
+  jira:issuePanel:
+    - key: pit-crew-panel
+      resource: main
+      resolver:
+        function: resolver
+      title: Pit Crew Command Center
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static
+permissions:
+  scopes:
+    - read:jira-work
+    - write:jira-work
+    - read:jira-user
+    - storage:app
+  external:
+    fetch:
+      backend:
+        - generativelanguage.googleapis.com
+app:
+  runtime:
+    name: nodejs20.x
+  id: ari:cloud:ecosystem::app/917f8ca5-bd30-45bb-8875-9b5cd657ca5d

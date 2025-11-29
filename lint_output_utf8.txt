@@ -1,0 +1,14 @@
+﻿Warning: Forge CLI supports Node.js 20.x or 22.x.
+Unsupported Node.js versions are not guaranteed to work correctly.
+
+Warning: Your version of Forge CLI is out of date. We recommend you update to the latest version to get the latest features and bug fixes.
+Run npm install -g @forge/cli@latest to update from version 12.9.0 to 12.10.0.
+
+The linter checks the app code for known errors. Warnings are issues you should fix, but they won't stop the app code from building.
+Press Ctrl+C to cancel.
+
+C:\Users\bs963\.gemini\antigravity\scratch\codegeist_ideas\manifest.yml
+1:0     error    permissions external property fetch should NOT have additional property 'clients'  valid-document-required
+
+X 1 issue (1 error, 0 warnings)
+  Issue found is not automatically fixable with forge lint.
