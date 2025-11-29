@@ -13,7 +13,7 @@
 ---
 
 ## 📺 See It In Action
-[![Watch the Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+[![Watch the Demo](https://img.youtube.com/vi/https://youtube.com/shorts/XfgOyT-NlwQ?feature=share/0.jpg)](https://www.youtube.com/watch?v=https://youtube.com/shorts/XfgOyT-NlwQ?feature=share)
 *(Click the image above to watch the 45-second demo!)*
 
 ---
